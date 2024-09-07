@@ -7,7 +7,7 @@ import com.example.springboot_backend.repository.UserRepository;
 // นำเข้าคลาส Autowired และ Service จาก Spring Framework
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
+import java.util.List;
 // ประกาศคลาสที่ implement UserService interface และระบุว่าเป็น Service ของ Spring
 @Service
 public class UserServiceImpl implements UserService {

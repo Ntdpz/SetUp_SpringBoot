@@ -31,3 +31,7 @@ This repository contains a Spring Boot backend application with Docker and MySQL
 ```bash
 git clone https://github.com/Ntdpz/SetUp_SpringBoot.git
 cd SetUp_SpringBoot
+docker-compose up
+mvn spring-boot:run
+
+
